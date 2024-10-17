@@ -34,12 +34,15 @@ This repository contains the code and data used for portfolio optimization analy
  Robinson Laundon (2024). Fourier Mellin Image Registration (https://www.mathworks.com/matlabcentral/fileexchange/19731-fourier-mellin-image-registration), MATLAB Central File Exchange. Retrieved October 17, 2024. 
 ## Usage
 
-Provide instructions on how to use the code, run the models, and analyze the results.
+To run the models **VAR(1)-AutoML**, **CWT-CNN** and **FM-LSTM** you can use **main.m** file. The code depends on the helper functions **FM.m**, **hipass_filter.m**, **calculateMetrics_csv_1.m**, **calculateMetrics_csv_OO.m** and **error_analsis.m**.
 
+## Code and Research
+
+This code is associated with our research paper titled "[Investigating the dynamics and uncertainties in portfolio optimization using the Fourier-Millen Transform]." It serves as a foundation for the analyses presented in the study. We encourage further development and use for future research purposes.
 ## License
 
-Include details about the license.
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 
 ## Contact
 
-Information for contacting the author or contributing to the project.
+my email: mh.ayedh@tu.edu.sa.
