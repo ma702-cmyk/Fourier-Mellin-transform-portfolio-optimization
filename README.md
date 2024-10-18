@@ -5,18 +5,16 @@ This repository contains the code and data used for portfolio optimization analy
 
 ## Figures and Tables
 
-- **fig3.eps**: This plot represents the stock data used in the portfolio optimization time series starting from April 1, 2013, to April 1, 2014.
-- **Table 1**: Descriptive statistics on the stock prices.
-- **fig4.eps**: Dendogram of the stock prices.
-- **fig5.eps**: Average correlation of the samples grouped by correlation level.
-- **fig6.eps**: First 10 principal components of the stock log returns.
-- **fig7.eps**: Correlation heatmap of the principal components.
-- **fig8.eps**: Cumulative returns of the principal components of the log returns.
-- **fig9.eps**: Cumulative returns of the principal components of the log returns.
-- **fig10.eps**: Wavelet transform of some of the principal components of log returns.
-- **fig11.eps**: Performance evaluation: the profitability of VAR(1)-AutoML, CWT-CNN, and FM-LSTM.
-- **Table 2**: MAE and MSE for the training set across the three methods.
-- **Table 3**: MAE and MSE for the testing dataset across the three methods.
+- **fig3.png**: This plot represents the stock data used in the portfolio optimization time series starting from April 1, 2013, to April 1, 2014.
+- **fig4.png**: Dendogram of the stock prices.
+- **fig5.png**: Average correlation of the samples grouped by correlation level.
+- **fig6.png**: First 10 principal components of the stock log returns.
+- **fig7.png**: Correlation heatmap of the principal components.
+- **fig8.png**: Cumulative returns of the principal components of the log returns.
+- **fig9.png**: Cumulative returns of the principal components of the log returns.
+- **fig10.png**: Wavelet transform of some of the principal components of log returns.
+- **fig11.png**: Performance evaluation: the profitability of VAR(1)-AutoML, CWT-CNN, and FM-LSTM.
+
 
 ## Code and Data Files
 
@@ -30,11 +28,11 @@ This repository contains the code and data used for portfolio optimization analy
 - **calculateMetrics_csv_OO.m**: This code applies MAE and RMSE on FM-LSTM (denoted as O in the main code).
 - **test.mat**: Contains all main results obtained from three models (training and testing) to save time of running the code again.
 - **test1.mat**: Used to see the effect of selecting the data randomly on the models.
-- **FM.m** and **hipass_filter.m** was taken from MATLAB Central File Exchange:
+- **FM.m**, **transform_Image.m** and **hipass_filter.m** was taken from MATLAB Central File Exchange:
  Robinson Laundon (2024). Fourier Mellin Image Registration (https://www.mathworks.com/matlabcentral/fileexchange/19731-fourier-mellin-image-registration), MATLAB Central File Exchange. Retrieved October 17, 2024. 
 ## Usage
 
-To run the models **VAR(1)-AutoML**, **CWT-CNN** and **FM-LSTM** you can use **main.m** file. The code depends on the helper functions **FM.m**, **hipass_filter.m**, **calculateMetrics_csv_1.m**, **calculateMetrics_csv_OO.m** and **error_analsis.m**.
+To run the models **VAR(1)-AutoML**, **CWT-CNN** and **FM-LSTM** you can use **main.m** file. The code depends on the helper functions **FM.m**, **hipass_filter.m**, **transform_Image.m**, **calculateMetrics_csv_1.m**, **calculateMetrics_csv_OO.m** and **error_analsis.m**.
 
 ## Code and Research
 
