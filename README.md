@@ -36,6 +36,7 @@ To run the models **VAR(1)-AutoML**, **CWT-CNN** and **FM-LSTM** you can use **m
 ## Code and Research
 
 This code is associated with our research paper titled "[Investigating the dynamics and uncertainties in portfolio optimization using the Fourier-Millen Transform]." It serves as a foundation for the analyses presented in the study. We encourage further development and use for future research purposes.
+cite the code: [![DOI](https://zenodo.org/badge/870755447.svg)](https://doi.org/10.5281/zenodo.13951188)
 ## License
 
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
