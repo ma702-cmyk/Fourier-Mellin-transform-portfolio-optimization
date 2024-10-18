@@ -1,0 +1,9 @@
+function X=stack(Q)
+         X=zeros( [   ...
+            size(Q{1})...
+        1 length(Q) ]) ;
+ for i =1:length(Q)
+         X      (:,:, ...
+   1,i)=         Q{i}  ;
+  end
+end
