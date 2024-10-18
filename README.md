@@ -5,15 +5,15 @@ This repository contains the code and data used for portfolio optimization analy
 
 ## Figures and Tables
 
-- **fig3.png**: This plot represents the stock data used in the portfolio optimization time series starting from April 1, 2013, to April 1, 2014.
-- **fig4.png**: Dendogram of the stock prices.
-- **fig5.png**: Average correlation of the samples grouped by correlation level.
-- **fig6.png**: First 10 principal components of the stock log returns.
-- **fig7.png**: Correlation heatmap of the principal components.
+- **fig1.png**: This plot represents the stock data used in the portfolio optimization time series starting from April 1, 2013, to April 1, 2014.
+- **fig2.png**: Dendogram of the stock prices.
+- **fig3.png-fig4.png**: Average correlation of the samples grouped by correlation level.
+- **fig5.png**: First 10 principal components of the stock log returns.
+- **fig6.png**: Correlation heatmap of the principal components.
+- **fig7.png**: Cumulative returns of the principal components of the log returns.
 - **fig8.png**: Cumulative returns of the principal components of the log returns.
-- **fig9.png**: Cumulative returns of the principal components of the log returns.
-- **fig10.png**: Wavelet transform of some of the principal components of log returns.
-- **fig11.png**: Performance evaluation: the profitability of VAR(1)-AutoML, CWT-CNN, and FM-LSTM.
+- **fig9.png**: Wavelet transform of some of the principal components of log returns.
+- **e.png**: Performance evaluation: the profitability of VAR(1)-AutoML, CWT-CNN, and FM-LSTM.
 
 
 ## Code and Data Files
