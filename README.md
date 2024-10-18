@@ -26,8 +26,7 @@ This repository contains the code and data used for portfolio optimization analy
 - **error_analsis.m**: This code applies MAE and RMSE and plots them as a time series.
 - **calculateMetrics_csv_1.m**: This code applies MAE and RMSE on VAR(1)-AutoML (denoted as M in the main code) and CWT-CNN (denoted as m in the main code), storing them as a CSV file.
 - **calculateMetrics_csv_OO.m**: This code applies MAE and RMSE on FM-LSTM (denoted as O in the main code).
-- **test.mat**: Contains all main results obtained from three models (training and testing) to save time of running the code again.
-- **test1.mat**: Used to see the effect of selecting the data randomly on the models.
+- **datafile_1**, **datafile_2**, **datafile_3** and **datafile_4**: Contains all main results obtained from three models (training and testing) to save time of running the code again.
 - **FM.m**, **transform_Image.m** and **hipass_filter.m** was taken from MATLAB Central File Exchange:
  Robinson Laundon (2024). Fourier Mellin Image Registration (https://www.mathworks.com/matlabcentral/fileexchange/19731-fourier-mellin-image-registration), MATLAB Central File Exchange. Retrieved October 17, 2024. 
 ## Usage
